@@ -11,7 +11,7 @@ https://rayomego.github.io/delani/
 * Open Terminal {Ctrl+Alt+T}
 * git clone ```https://github.com/rayomego/delani.git```
 * cd Delani-Studio
-* code . or atom . depending on the text editor of your choise.
+* code .
 ## Technologies Used
 * [HTML5]
 * [CSS]
