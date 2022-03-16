@@ -30,62 +30,62 @@ $(document).ready(function(){
   });
   $(document).ready(function(){
     $("#work1").mouseover(function(){
-      $("#overlay").show();
+      $("#text1").show();
     }).mouseout(function(){
-      $("#overlay").hide();
+      $("#text1").hide();
     });
   });
   $(document).ready(function(){
     $("#work2").mouseover(function(){
-      $("#overlay2").show();
+      $("#text2").show();
     }).mouseout(function(){
-      $("#overlay2").hide();
+      $("#text2").hide();
     });
   });
   $(document).ready(function(){
     $("#work3").mouseover(function(){
-      $("#overlay3").show();
+      $("#text3").show();
     }).mouseout(function(){
-      $("#overlay3").hide();
+      $("#text3").hide();
     });
   });
   $(document).ready(function(){
     $("#work4").mouseover(function(){
-      $("#overlay4").show();
+      $("#text4").show();
     }).mouseout(function(){
-      $("#overlay4").hide();
+      $("#text4").hide();
     });
   });
   $(document).ready(function(){
     $("#work5").mouseover(function(){
-      $("#overlay5").show();
+      $("#text5").show();
     }).mouseout(function(){
-      $("#overlay5").hide();
+      $("#text5").hide();
     });
     $("#work6").mouseover(function(){
-      $("#overlay6").show();
+      $("#text6").show();
     }).mouseout(function(){
-      $("#overlay6").hide();
+      $("#text6").hide();
     });
     $("#work7").mouseover(function(){
-      $("#overlay7").show();
+      $("#text7").show();
     }).mouseout(function(){
-      $("#overlay7").hide();
+      $("#text7").hide();
     });
     $("#work8").mouseover(function(){
-      $("#overlay8").show();
+      $("#text8").show();
     }).mouseout(function(){
-      $("#overlay8").hide();
+      $("#text8").hide();
     });
   });
   
   $(document).ready(function(){
-    $("form#form34A").submit(function(event){
+    $("form#contact").submit(function(event){
       // event.preventDefault();
-      var name = $("input#MERGE1").val();
-      var email = $("input#MERGE0").val();
-      var message = $("textarea#comment").val();
-      if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+      var name = $("input#name").val();
+      var email = $("input#email").val();
+      var message = $("input#comment").val();
+      if ($("input#name").val() && $("input#email").val()){
         alert (name + ", we have received your message. Thank you for reaching out to us.");
       }
       else {
