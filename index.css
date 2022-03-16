@@ -35,13 +35,34 @@ body{
   .hide{
     display:none;
   }
-  .Hover {
-    display: none;
+  .image{
+  opacity: 1;
+  display:block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+
   }
 
-  .img-1:hover{
-    background:green;
+  .Hover{
+    transition: .5s ease;
+    opacity: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
   }
+  .col-md-3:hover .image{
+    opacity: 0;
+  }
+  .col-md-3:hover .Hover{
+    opacity: 0;
+  }
+  .
+
   .whatWeDo{
     text-align: center;
     padding-top: 40px;
