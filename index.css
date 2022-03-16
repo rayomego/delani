@@ -9,7 +9,7 @@ body{
     background-color: white;
 }
 #intro{
-    background-image:url(images/first\ pic.jpeg);
+    background-image:url(images/first.jpg);
     background-size: cover;
     text-align: center;
     color: white;
@@ -20,7 +20,7 @@ body{
     font-size: small;
   }
   #services {
-    background-image: url(images/second\ pic.jpeg);
+    background-image: url(images/second.jpg);
     background-size: cover;
     text-align: center;
     color: white;
