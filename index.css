@@ -42,7 +42,18 @@ body{
     padding-bottom: 50px;
     margin: auto;
   }
-  
+  .heading{
+    padding-bottom: 40px;
+  }
+  .whatWeDo .headings{
+
+    padding-bottom: 38px;
+
+  }
+  #whatWeDoRowId{
+    margin-left: 200px;
+  }
+
 
 
 
