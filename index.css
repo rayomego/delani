@@ -1,0 +1,59 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+#intro{
+    background-image:url(images/first\ pic.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+#aboutUs {
+    text-align: center;
+    color: black;
+    font-size: small;
+  }
+  #services {
+    background-image: url(images/second\ pic.jpeg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: small;
+  }
+  .hide{
+    display:none;
+  }
+  .Hover {
+    display: none;
+  }
+
+  .img-1:hover{
+    background:green;
+  }
+
+
+
+
+
+  img:hover {
+    display: block;
+    background-color:white;
+    /* color: black;
+    font-size: 16px;
+    padding: 16px 16px;
+    opacity:1;
+    position: ;
+    top:25%;
+    bottom:25%;
+    left:25%;
+    right:25%;  */
+  }
+  .row{
+    padding:2%;
+  }
