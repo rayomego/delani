@@ -79,4 +79,18 @@ $(document).ready(function(){
     });
   });
   
-  
+  $(document).ready(function(){
+    $("form#contact").submit(function(event){
+      // event.preventDefault();
+      var name = $("input#name").val();
+      var email = $("input#email").val();
+      var message = $("input#comment").val();
+      if ($("input#name").val() && $("input#email").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }
+      
+    });
+  });
